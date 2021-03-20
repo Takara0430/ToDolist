@@ -1,2 +1,2 @@
-# ToDolist
+# ToDoリスト
 簡易なToDoリスト
