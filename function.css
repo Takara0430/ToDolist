@@ -1,129 +1,119 @@
-.HeaderPosition{
-	position: absolute;
-	/* background: pink; */
-	width: 250px;
-	height: 50px;
-	top: 30px;
-	/* 中央は665px */
-	left: 665px;
-}
-
-.TodoTitle{
-	position: absolute;
-	/* background: pink; */
-	color: #ff0000;
-	width: 250px;
-	height: 50px;
-	top: 150px;
-	/* 中央は665px */
-	left: 220px;
-}
-
-.Todo1{
+/* やることの保存ボタン */
+.Todo1Button{
 	position: absolute;
 	/* background: pink; */
 	width: 250px;
 	height: 50px;
 	top: 200px;
 	/* 中央は665px */
-	left: 220px;
+	left: 400px;
 }
 
-.Todo2{
+.Todo2Button{
 	position: absolute;
 	/* background: pink; */
 	width: 250px;
 	height: 50px;
 	top: 250px;
 	/* 中央は665px */
-	left: 220px;
+	left: 400px;
 }	
-.Todo3{
+.Todo3Button{
 	position: absolute;
 	/* background: pink; */
 	width: 250px;
 	height: 50px;
 	top: 300px;
 	/* 中央は665px */
-	left: 220px;
+	left: 400px;
 }
 
-.WhenTitle{
-	position: absolute;
-	/* background: pink; */
-	color: #ff0000;
-	width: 250px;
-	height: 50px;
-	top: 150px;
-	/* 中央は665px */
-	left: 660px;
-}
-
-.When1{
+/* いつまでの保存ボタン */
+.When1Button{
 	position: absolute;
 	/* background: pink; */
 	width: 250px;
 	height: 50px;
 	top: 200px;
 	/* 中央は665px */
-	left: 660px;
+	left: 840px;
 }
 
-.When2{
+.When2Button{
 	position: absolute;
 	/* background: pink; */
 	width: 250px;
 	height: 50px;
 	top: 250px;
 	/* 中央は665px */
-	left: 660px;
+	left: 840px;
 }	
-.When3{
+.When3Button{
 	position: absolute;
 	/* background: pink; */
 	width: 250px;
 	height: 50px;
 	top: 300px;
 	/* 中央は665px */
-	left: 660px;
+	left: 840px;
 }
 
-.RemarksTitle{
-	position: absolute;
-	/* background: pink; */
-	color: #ff0000;
-	width: 250px;
-	height: 50px;
-	top: 150px;
-	/* 中央は665px */
-	left: 1100px;
-}
-
-.Remarks1{
+/* 備考の保存ボタン */
+.Remarks1Button{
 	position: absolute;
 	/* background: pink; */
 	width: 250px;
 	height: 50px;
 	top: 200px;
 	/* 中央は665px */
-	left: 1100px;
+	left: 1280px;
 }
 
-.Remarks2{
+.Remarks2Button{
 	position: absolute;
 	/* background: pink; */
 	width: 250px;
 	height: 50px;
 	top: 250px;
 	/* 中央は665px */
-	left: 1100px;
+	left: 1280px;
 }	
-.Remarks3{
+.Remarks3Button{
 	position: absolute;
 	/* background: pink; */
 	width: 250px;
 	height: 50px;
 	top: 300px;
+	/* 中央は665px */
+	left: 1280px;
+}
+
+.OutPutTodo{
+	position: absolute;
+	/* background: pink; */
+	width: 250px;
+	height: 50px;
+	top: 400px;
+	/* 中央は665px */
+	left: 220px;
+}
+
+.OutPutWhen{
+	position: absolute;
+	/* background: pink; */
+	width: 250px;
+	height: 50px;
+	top: 400px;
+	/* 中央は665px */
+	left: 660px;
+}
+
+.OutPutRemarks{
+	position: absolute;
+	/* background: pink; */
+	width: 250px;
+	height: 50px;
+	top: 400px;
 	/* 中央は665px */
 	left: 1100px;
 }

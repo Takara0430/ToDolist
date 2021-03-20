@@ -4,27 +4,58 @@
 		<title>やることリスト</title>
 			<!-- 使用するスタイルシートを設定する -->
 			<!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
-			<link rel="stylesheet" href="css/uikit.css" />
+			<link rel="stylesheet" href="function.css" />
 			<link rel="stylesheet" href="common.css">
-			<script src="js/uikit.min.js"></script>
 	</head>
-		<body bgcolor="yellow">
+	<body bgcolor="yellow">
+		<script type="text/javascript" src="common.js"></script>
 		<!-- ヘッダーのフォーマットを設定 -->
-		<h1><div class = HeaderPosition>やることリスト</div></h1>
+		<h1><div class = HeaderPosition>To Do リスト</div></h1>
 		<!-- やることのリストを設定 -->
 		<h2><div class = TodoTitle>やること</div><h2>
-		<div class = Todo1>テキストボックス</div>
-		<div class = Todo2>テキストボックス</div>
-		<div class = Todo3>テキストボックス</div>
+	 <!-- <form id="form1" action="#"> -->
+		<div class = Todo1><input type="text" id="Todo1"></div>
+		<div class = Todo1Button><input type="button" onclick="showMessage()" value="送信"></div>
+		<div class = Todo2><input type="text" id="Todo2"></div>
+		<div class = Todo2Button><input type="button" onclick="showMessage()" value="送信"></div>
+		<div class = Todo3><input type="text" id="Todo3"></div>
+		<div class = Todo3Button><input type="button" onclick="showMessage()" value="送信"></div>
+	 <!-- </form> -->
+		<!-- やることのリストを出力 -->
+		<div class = OutPutTodo>
+		<p> <p id="output1-message"></p></p>
+		<p> <p id="output2-message"></p></p>
+		<p> <p id="output3-message"></p></p>
+		</div>
 		<!-- いつまでのリストを設定 -->
 		<h2><div class = WhenTitle>いつまで</div><h2>
-		<div class = When1>テキストボックス</div>
-		<div class = When2>テキストボックス</div>
-		<div class = When3>テキストボックス</div>
-		<!-- あと何日のリストを設定 -->
-		<h2><div class = HowManyDaysTitle>あと何日</div><h2>
-		<div class = HowManyDays1>テキストボックス</div>
-		<div class = HowManyDays2>テキストボックス</div>
-		<div class = HowManyDays3>テキストボックス</div>
-		</body>
+		<div class = When1><input type="text" id="When1"></div>
+		<div class = When1Button><input type="button" onclick="showMessage()" value="保存"></div>
+		<div class = When2><input type="text" id="When2"></div>
+		<div class = When2Button><input type="button" onclick="showMessage()" value="保存"></div>
+		<div class = When3><input type="text" id="When3"></div>
+		<div class = When3Button><input type="button" onclick="showMessage()" value="保存"></div>
+		<!-- やることのリストを出力 -->
+		<div class = OutPutWhen>
+		<p> <p id="Whenoutput1-message"></p></p>
+		<p> <p id="Whenoutput2-message"></p></p>
+		<p> <p id="Whenoutput3-message"></p></p>
+		</div>
+		<!-- 備考のリストを設定 -->
+		<h2><div class = RemarksTitle>備考</div><h2>
+		<div class = Remarks1><input type="text" id="Remarks1"></div>
+		<div class = Remarks1Button><input type="button" onclick="showMessage()" value="保存"></div>
+		<div class = Remarks2><input type="text" id="Remarks2"></div>
+		<div class = Remarks2Button><input type="button" onclick="showMessage()" value="保存"></div>
+		<div class = Remarks3><input type="text" id="Remarks3"></div>
+		<div class = Remarks3Button><input type="button" onclick="showMessage()" value="保存"></div>
+
+		<!-- 備考のリストを出力 -->
+		<div class = OutPutRemarks>
+		<p><p id="Remarksoutput1-message"></p></p>
+		<p><p id="Remarksoutput2-message"></p></p>
+		<p><p id="Remarksoutput3-message"></p></p>
+		</div>
+		
+	</body>
 </html>
