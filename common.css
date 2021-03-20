@@ -1,0 +1,129 @@
+.HeaderPosition{
+	position: absolute;
+	/* background: pink; */
+	width: 250px;
+	height: 50px;
+	top: 30px;
+	/* ’†‰›‚Í665px */
+	left: 665px;
+}
+
+.TodoTitle{
+	position: absolute;
+	/* background: pink; */
+	color: #ff0000;
+	width: 250px;
+	height: 50px;
+	top: 150px;
+	/* ’†‰›‚Í665px */
+	left: 220px;
+}
+
+.Todo1{
+	position: absolute;
+	/* background: pink; */
+	width: 250px;
+	height: 50px;
+	top: 260px;
+	/* ’†‰›‚Í665px */
+	left: 220px;
+}
+
+.Todo2{
+	position: absolute;
+	/* background: pink; */
+	width: 250px;
+	height: 50px;
+	top: 370px;
+	/* ’†‰›‚Í665px */
+	left: 220px;
+}	
+.Todo3{
+	position: absolute;
+	/* background: pink; */
+	width: 250px;
+	height: 50px;
+	top: 480px;
+	/* ’†‰›‚Í665px */
+	left: 220px;
+}
+
+.WhenTitle{
+	position: absolute;
+	/* background: pink; */
+	color: #ff0000;
+	width: 250px;
+	height: 50px;
+	top: 150px;
+	/* ’†‰›‚Í665px */
+	left: 660px;
+}
+
+.When1{
+	position: absolute;
+	/* background: pink; */
+	width: 250px;
+	height: 50px;
+	top: 260px;
+	/* ’†‰›‚Í665px */
+	left: 660px;
+}
+
+.When2{
+	position: absolute;
+	/* background: pink; */
+	width: 250px;
+	height: 50px;
+	top: 370px;
+	/* ’†‰›‚Í665px */
+	left: 660px;
+}	
+.When3{
+	position: absolute;
+	/* background: pink; */
+	width: 250px;
+	height: 50px;
+	top: 480px;
+	/* ’†‰›‚Í665px */
+	left: 660px;
+}
+
+.HowManyDaysTitle{
+	position: absolute;
+	/* background: pink; */
+	color: #ff0000;
+	width: 250px;
+	height: 50px;
+	top: 150px;
+	/* ’†‰›‚Í665px */
+	left: 1100px;
+}
+
+.HowManyDays1{
+	position: absolute;
+	/* background: pink; */
+	width: 250px;
+	height: 50px;
+	top: 260px;
+	/* ’†‰›‚Í665px */
+	left: 1100px;
+}
+
+.HowManyDays2{
+	position: absolute;
+	/* background: pink; */
+	width: 250px;
+	height: 50px;
+	top: 370px;
+	/* ’†‰›‚Í665px */
+	left: 1100px;
+}	
+.HowManyDays3{
+	position: absolute;
+	/* background: pink; */
+	width: 250px;
+	height: 50px;
+	top: 480px;
+	/* ’†‰›‚Í665px */
+	left: 1100px;
+}
